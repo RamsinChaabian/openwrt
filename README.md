@@ -7,6 +7,9 @@ To set up the cron job, add the following line to your cron configuration:
 ```
 0 6 * * * /bin/sh -c 'wget -q -O /tmp/check_and_reboot.sh https://raw.githubusercontent.com/ramsinchaabian/openwrt/main/check_and_reboot.sh && chmod +x /tmp/check_and_reboot.sh && ash /tmp/check_and_reboot.sh'
 ```
+![first image](./h1.png)
+![second image](./h2.png)
+
 ### 📋 What This Cron Job Does
 
 - **Time**: Runs every day at 6:00 AM.
